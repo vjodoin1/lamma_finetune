@@ -1,0 +1,21 @@
+name: llama-ft
+prefix: /gpfs/wolf2/olcf/trn040/world-shared/vjodo/envs/llama-ft
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip>=23.3
+  - cudatoolkit=12.2
+  - pytorch>=2.3
+  - torchvision
+  - torchaudio
+  - accelerate>=0.28
+  - bitsandbytes>=0.43
+  - transformers>=4.40
+  - datasets>=2.19
+  - peft>=0.10
+  - sentencepiece
+  - huggingface_hub
+  - tqdm
+  - pip:
+      - trl==0.9.1
